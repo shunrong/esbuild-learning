@@ -10,6 +10,7 @@
     "build:watch": "esbuild src/index.js --bundle --outfile=dist/bundle.js --watch",
     "build:ts": "esbuild src/app.ts --bundle --outfile=dist/app.js",
     "build:react": "esbuild src/react-app.jsx --bundle --outfile=dist/react-app.js",
+    "build:css": "esbuild src/css-demo.js --bundle --outfile=dist/css-demo.js",
     "serve": "esbuild src/index.js --bundle --outfile=dist/bundle.js --serve=8000",
     "dev": "esbuild src/index.js --bundle --outfile=dist/bundle.js --watch --serve=8000",
     "dev-server": "node dev-server.js",
