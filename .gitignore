@@ -1,6 +1,21 @@
-node_modules
-dist
-.env
-.DS_Store
-.idea
-.vscode
+   # 依赖目录
+   node_modules/
+   
+   # 构建输出
+   dist/
+   build/
+   out/
+   
+   # 系统文件
+   .DS_Store
+   
+   # 环境变量
+   .env
+   .env.local
+   
+   # 日志文件
+   *.log
+   
+   # 编辑器配置
+   .vscode/
+   .idea/
