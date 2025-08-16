@@ -1,0 +1,34 @@
+{
+  "labels": [
+    "ESBuild (基础配置)",
+    "ESBuild (优化配置)",
+    "ESBuild (React)",
+    "ESBuild (TypeScript)"
+  ],
+  "datasets": [
+    {
+      "label": "构建时间 (ms)",
+      "data": [
+        12,
+        2,
+        40,
+        2
+      ],
+      "backgroundColor": "rgba(52, 152, 219, 0.7)",
+      "borderColor": "rgba(52, 152, 219, 1)",
+      "borderWidth": 1
+    },
+    {
+      "label": "文件大小 (KB)",
+      "data": [
+        3,
+        2,
+        146,
+        7
+      ],
+      "backgroundColor": "rgba(46, 204, 113, 0.7)",
+      "borderColor": "rgba(46, 204, 113, 1)",
+      "borderWidth": 1
+    }
+  ]
+}

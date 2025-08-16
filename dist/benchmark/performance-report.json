@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-08-16T02:32:27.893Z",
+  "environment": {
+    "nodeVersion": "v22.17.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpus": 8
+  },
+  "results": [
+    {
+      "name": "ESBuild (基础配置)",
+      "tool": "esbuild",
+      "iterations": 5,
+      "avgTime": 12,
+      "minTime": 1,
+      "maxTime": 55,
+      "avgSize": 3097,
+      "avgSizeFormatted": "3.02 KB",
+      "times": [
+        54.657416,
+        2.64675,
+        1.54075,
+        1.604708,
+        1.112958
+      ],
+      "sizes": [
+        3097,
+        3097,
+        3097,
+        3097,
+        3097
+      ]
+    },
+    {
+      "name": "ESBuild (优化配置)",
+      "tool": "esbuild",
+      "iterations": 5,
+      "avgTime": 2,
+      "minTime": 1,
+      "maxTime": 3,
+      "avgSize": 1895,
+      "avgSizeFormatted": "1.85 KB",
+      "times": [
+        2.063333,
+        1.281,
+        1.721875,
+        2.674416,
+        2.046084
+      ],
+      "sizes": [
+        1895,
+        1895,
+        1895,
+        1895,
+        1895
+      ]
+    },
+    {
+      "name": "ESBuild (React)",
+      "tool": "esbuild",
+      "iterations": 5,
+      "avgTime": 40,
+      "minTime": 15,
+      "maxTime": 79,
+      "avgSize": 149394,
+      "avgSizeFormatted": "145.89 KB",
+      "times": [
+        18.02875,
+        74.332209,
+        78.986,
+        15.744042,
+        14.714
+      ],
+      "sizes": [
+        149394,
+        149394,
+        149394,
+        149394,
+        149394
+      ]
+    },
+    {
+      "name": "ESBuild (TypeScript)",
+      "tool": "esbuild",
+      "iterations": 5,
+      "avgTime": 2,
+      "minTime": 1,
+      "maxTime": 2,
+      "avgSize": 7425,
+      "avgSizeFormatted": "7.25 KB",
+      "times": [
+        2.068708,
+        1.522917,
+        1.454458,
+        1.600708,
+        1.865125
+      ],
+      "sizes": [
+        7425,
+        7425,
+        7425,
+        7425,
+        7425
+      ]
+    }
+  ],
+  "summary": {
+    "totalTests": 4,
+    "fastestConfig": {
+      "name": "ESBuild (优化配置)",
+      "tool": "esbuild",
+      "iterations": 5,
+      "avgTime": 2,
+      "minTime": 1,
+      "maxTime": 3,
+      "avgSize": 1895,
+      "avgSizeFormatted": "1.85 KB",
+      "times": [
+        2.063333,
+        1.281,
+        1.721875,
+        2.674416,
+        2.046084
+      ],
+      "sizes": [
+        1895,
+        1895,
+        1895,
+        1895,
+        1895
+      ]
+    },
+    "averageTime": 14
+  }
+}

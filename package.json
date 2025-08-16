@@ -1,0 +1,28 @@
+{
+  "name": "esbuild-learning",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "学习 esbuild 构建工具的示例项目",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/bundle.js",
+    "build:min": "esbuild src/index.js --bundle --minify --outfile=dist/bundle.min.js",
+    "build:watch": "esbuild src/index.js --bundle --outfile=dist/bundle.js --watch",
+    "build:ts": "esbuild src/app.ts --bundle --outfile=dist/app.js",
+    "build:react": "esbuild src/react-app.jsx --bundle --outfile=dist/react-app.js",
+    "serve": "esbuild src/index.js --bundle --outfile=dist/bundle.js --serve=8000",
+    "dev": "esbuild src/index.js --bundle --outfile=dist/bundle.js --watch --serve=8000",
+    "dev-server": "node dev-server.js",
+    "build:plugins": "node build-with-plugins.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.2.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
